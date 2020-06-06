@@ -10,6 +10,7 @@ and report the "best" minimum found */
 
 using namespace std;
 
+// Objective function
 real func(const vector<real>& x) {
     real y;
     // y = x[0]*x[0]+x[1]*x[1]; // Paraboloid (convex)

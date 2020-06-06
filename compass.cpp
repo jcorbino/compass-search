@@ -67,7 +67,7 @@ int main() {
     auto start = chrono::system_clock::now();
     auto iters = worker(min, x0, func);
     auto end = chrono::system_clock::now();
-    chrono::duration<double> elapsed = end - start;
+    chrono::duration<real> elapsed = end - start;
 
     cout << "Min: " << min << '\n'
          << "Found at: [ ";

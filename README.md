@@ -1,2 +1,2 @@
 # compass-search
-Compass search algorithm for derivative-free optimization
+Compass search algorithm for derivative-free optimization.
